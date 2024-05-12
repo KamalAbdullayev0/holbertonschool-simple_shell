@@ -14,4 +14,6 @@ extern char **path_var;
 extern char **environ;
 char **_strtok(char *str, char delim);
 
+int exec_c(char **fcommand);
+
 #endif
