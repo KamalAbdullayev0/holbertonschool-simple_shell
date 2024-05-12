@@ -1,0 +1,55 @@
+.TH SIMPLE_SHELL 1 "May 2024" "Simple Shell Manual"
+.SH NAME
+simple_shell \- a simple shell implementation
+.SH SYNOPSIS
+simple_shell
+.SH DESCRIPTION
+The \fBsimple_shell\fR is a basic UNIX command line interpreter developed as part of the Simple Shell Group Project. It interprets user commands and executes them accordingly.
+
+.SH OPTIONS
+The \fBsimple_shell\fR does not support any command-line options.
+
+.SH COMMANDS
+The following commands are supported by the shell:
+
+.BR exit
+Exits the shell.
+
+.BR env
+Prints the current environment.
+.SH USAGE
+To start the Simple Shell, execute the following command:
+.nf
+\fB$ ./shell\fR
+.fi
+Upon launching the shell, users will gain access to a versatile toolkit
+for managing files, executing programs, and customizing their system 
+environment.
+
+.SH EXAMPLES
+Below are some illustrative examples that shows the functionality of 
+the Simple Shell:
+.nf
+\fB$ ./shell
+#cisfun$ ls
+Desktop  Documents  Downloads  Music  Pictures  Videos
+
+#cisfun$ echo "Hello, World!"
+Hello, World!
+
+#cisfun$ env
+PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin
+SHELL=/bin/bash
+HOME=/home/user
+...
+
+#cisfun$ exit
+.fi
+.SH AUTHOR
+The Simple Shell was developed by Kamal Abdullayev and Sohrab Yusibov.
+
+.SH REPORTING BUGS
+If you encounter any issues or bugs, please report them to simararustam@gmail.com or rafigmammadov@yahoo.com for prompt resolution.
+
+.SH COPYRIGHT
+This is free software: you are free to modify and distribute it.
