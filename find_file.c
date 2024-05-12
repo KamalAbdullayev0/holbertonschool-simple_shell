@@ -1,4 +1,7 @@
 #include "main.h"
+
+char **path_var;
+
 /**
  * find_file - Finds file location in path variables.
  *
