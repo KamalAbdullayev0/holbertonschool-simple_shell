@@ -41,3 +41,7 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 
 - Kamal Abdullayev
 - Sohrab Yusubov
+
+## License
+
+This project is licensed under the Holberton School.
