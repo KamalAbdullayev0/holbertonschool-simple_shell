@@ -12,3 +12,6 @@
 
 extern char **path_var;
 extern char **environ;
+char **_strtok(char *str, char delim);
+
+#endif
