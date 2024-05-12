@@ -15,4 +15,5 @@ extern char **environ;
 char **_strtok(char *str, char delim);
 int exec_c(char **fcommand);
 char **get_command(char **);
+char **get_path(char **);
 #endif
