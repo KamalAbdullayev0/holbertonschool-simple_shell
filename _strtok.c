@@ -38,6 +38,7 @@ char **_strtok(char *str, char delim)
 				*end = '\0';
 				array[j - 1] = strdup(start), *end = delim, start = end;
 			}
+			j++;
 		}
 		i++;
 	}
