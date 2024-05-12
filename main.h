@@ -16,4 +16,5 @@ char **_strtok(char *str, char delim);
 int exec_c(char **fcommand);
 char **get_command(char **);
 char **get_path(char **);
+char *find_file(char *command, int *);
 #endif
