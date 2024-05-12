@@ -23,7 +23,7 @@ The project is organized into several C source files:
 - **`execute_cmd.c`**: Functions for executing commands.
 - **`_strtok.c`**: Custom implementation of the `strtok` function for tokenizing strings.
 
-## Installation
+## Usage
 
 To install and run the Simple Shell, follow these steps:
 
@@ -31,3 +31,4 @@ To install and run the Simple Shell, follow these steps:
 2. Navigate to the project directory: `cd holbertonschool-simple_shell`
 3. Compile the source code: `gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o simpleShell`
 4. Run the shell: `./simpleShell`
+Once the shell is running, you can type commands just like in a regular terminal.
