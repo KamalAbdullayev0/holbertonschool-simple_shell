@@ -1,4 +1,20 @@
 #include "main.h"
+int main_helper(char **fcommand, int status, char *buf)
+{
+	if (fcommand == NULL)
+	{
+		free(buf), free_path();
+		if (status)
+			printf("\n");
+		return (1);
+	}
+	else if (!strcmp(fcommand[0], "exit"))
+	{
+		free(buf), free_path(), free(fcommand);
+		return (1);
+	}
+	return (0);
+}
 /**
   * main - shell start function
   * @argv: argument variables
