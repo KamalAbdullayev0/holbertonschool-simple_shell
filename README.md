@@ -22,3 +22,12 @@ The project is organized into several C source files:
 - **`find_file.c`**: Implements finding executable files in the PATH.
 - **`execute_cmd.c`**: Functions for executing commands.
 - **`_strtok.c`**: Custom implementation of the `strtok` function for tokenizing strings.
+
+## Installation
+
+To install and run the Simple Shell, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/kamurano/holbertonschool-simple_shell.git`
+2. Navigate to the project directory: `cd holbertonschool-simple_shell`
+3. Compile the source code: `gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o simpleShell`
+4. Run the shell: `./simpleShell`
