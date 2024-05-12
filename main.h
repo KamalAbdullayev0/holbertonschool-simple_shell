@@ -17,4 +17,6 @@ int exec_c(char **fcommand);
 char **get_command(char **);
 char **get_path(char **);
 char *find_file(char *command, int *);
+void print_prompt(int status);
+
 #endif
