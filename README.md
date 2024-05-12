@@ -9,3 +9,16 @@ The Simple Shell project is an implementation of a basic command-line interprete
 - **Command Execution**: Users can execute a wide range of commands supported by the underlying operating system directly from the shell.
 - **Environment Variables**: The shell supports environment variables and allows users to print them using the `env` command.
 - **Path Resolution**: Simplifying user experience, it efficiently locates executable files specified by users within the PATH environment variable.
+
+## File Structure
+
+The project is organized into several C source files:
+
+- **`main.c`**: Contains the main functionality and implementation of the shell.
+- **`prompt_string.c`**: Provides functions related to printing the prompt string.
+- **`print_env.c`**: Contains functions for printing environment variables.
+- **`init_path.c`**: Functions for initializing and freeing the PATH variable.
+- **`getcmd.c`**: Handles user input and parsing commands.
+- **`find_file.c`**: Implements finding executable files in the PATH.
+- **`execute_cmd.c`**: Functions for executing commands.
+- **`_strtok.c`**: Custom implementation of the `strtok` function for tokenizing strings.
