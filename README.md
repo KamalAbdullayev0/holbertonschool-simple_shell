@@ -37,4 +37,7 @@ Once the shell is running, you can type commands just like in a regular terminal
 ## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+## Authors
 
+- Kamal Abdullayev
+- Sohrab Yusubov
