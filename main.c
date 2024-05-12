@@ -39,6 +39,9 @@ int main(int argc, char **argv, char **env)
 			continue;
 		}
 		r_code = exec_c(fcommand), free(buf);
+		if (lk)
+			free(fcommand[0]), lk = 0;
+		free(fcommand), free(command);
 	}
 	return (r_code);
 }
